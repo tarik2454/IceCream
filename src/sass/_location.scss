@@ -75,7 +75,6 @@
    font-weight: 500;
    font-size: 12px;
 //    line-height: 1.83;
-    // @include font(500, 12px, 1.83);
     color: $secondary-text-color;
     text-transform: uppercase;
     @media screen and(min-width: 768px) {
@@ -97,7 +96,7 @@
 }
 
 .location__town {
-//    @include font(500, 12px, 1.83, null);
+
     font-weight: 500;
     font-size: 12px;
     // line-height: 1.83;   
@@ -115,7 +114,7 @@
 
 .location__address {
     // width: 88%;
-    // @include font(500, 12px, 1.83, null);
+    
     font-weight: 500;
     font-size: 12px;
     line-height: 1.83;
@@ -148,7 +147,7 @@
 }
 
 .location__week {
-    // @include font(500, 12px, 1.83, null);
+    
     font-weight: 500;
     font-size: 12px;
     line-height: 1.83;
@@ -165,7 +164,7 @@
 }
 
 .location__time {
-    // @include font(500, 12px, 1.83, null);
+    
     font-weight: 500;
     font-size: 12px;
     line-height: 1.83;
