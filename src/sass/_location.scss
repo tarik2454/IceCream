@@ -1,13 +1,13 @@
-.test {
-    padding-bottom: 207px;
-    background-color: #F8D24E;
-    @media screen and(min-width: 768px) {
-        padding-bottom: 484px;
-    }
-    @media screen and(min-width: 1200px) {
-        padding-bottom: 207px;
-    }
-}
+// .test {
+//     padding-bottom: 207px;
+//     background-color: #F8D24E;
+//     @media screen and(min-width: 768px) {
+//         padding-bottom: 484px;
+//     }
+//     @media screen and(min-width: 1200px) {
+//         padding-bottom: 207px;
+//     }
+// }
 .location {
     padding-top: 962px;
     padding-bottom: 39px;
@@ -115,7 +115,7 @@
 //    @include font(500, 12px, 1.83, null);
     font-weight: 500;
     font-size: 12px;
-    line-height: 1.83;   
+    // line-height: 1.83;   
     color: $secondary-text-color;
     @media screen and(min-width: 768px) {
         font-size: 14px;
