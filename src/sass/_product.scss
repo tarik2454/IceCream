@@ -140,51 +140,6 @@ margin-top: 110px;
 }
 }
 
-
-// .products__item-wrap::before{
-// position: absolute;
-// content: '';
-
-// width: 201px;
-// height: 211px;
-// top: -100px;
-// right: 50%;
-// transform: translateX(50%);
-
-// background-color: transparent;
-// background-size: contain;
-// background-repeat: no-repeat;
-
-
-// &--one{
-// background-image: url(../images/product/cream.png);   
-// }
-// &--two {
-//     background-image: url(../images/product/coffe.png);
-// }
-// &--three {
-//     background-image: url(../images/product/milk.png);
-// }
-
-
-// @media screen and(min-width: 768px) {
-//             width: 201px;
-//             height: 211px;
-//             top: -100px;
-//     right: 50%;
-//     transform: translateX(50%);
-//     }
-
-//     @media screen and(min-width: 1200px) {
-//             width: 305px;
-//             height: 320px;
-//             top: -140px;
-//     right: 50%;
-//     transform: translateX(50%);
-//     }
-// }
-
-
 .products__item-wrap {
     background: #EFD478;
     border-radius: 24px;
@@ -201,10 +156,21 @@ margin-top: 110px;
             padding-left: 26px;
             padding-right: 26px;
 }
- @media screen and(min-width: 1200px) {
+@media screen and(min-width: 1200px) {
             height: 535px;
             padding-left: 64px;
             padding-right: 64px;
+}
+&--one {
+    background: #AEC6A5;
+}
+
+&--two {
+    background: #EFD478;
+}
+
+&--three {
+    background: #D6936D;
 }
 &--one:before {
     background-image: url(../images/product/cream.png);
@@ -281,6 +247,7 @@ margin-top: 110px;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.76;
+        color: $secondary-text-color;
     
     @media screen and(min-width: 768px) { 
         
@@ -296,7 +263,6 @@ margin-top: 110px;
 .products__item-button {
 width: 45px;
 height: 20px;
-background-color: antiquewhite;
 margin-bottom: 20px;
 
     @media screen and(min-width: 1200px) {
@@ -304,7 +270,7 @@ margin-bottom: 20px;
     }
 }
 .products__item-svg{
-   fill: $secondary-text-color;
-   width: 40px;
-   height: 100%;
+fill: $secondary-text-color;
+width: 40px;
+height: 100%;
 }
