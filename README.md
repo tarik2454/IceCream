@@ -1,4 +1,4 @@
-# adaptive-website-IceCream
+# Adaptive Website IceCream
 
 Project Link: [https://tarik2454.github.io/adaptive-website-IceCream/](https://tarik2454.github.io/adaptive-website-IceCream/)
 
@@ -11,7 +11,8 @@ Project Link: [https://tarik2454.github.io/adaptive-website-IceCream/](https://t
 
 ## Contact:
 
-* email - tarik2454@gmail.com
+Telegram: <https://t.me/tarik_2454>  
+Email: <tarik2454@gmail.com>
 
 ***
 
